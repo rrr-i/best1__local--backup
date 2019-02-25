@@ -1,0 +1,1776 @@
+﻿@charset "utf-8";
+
+
+.tabs div.title h3 {
+	width: 95%;
+	margin: 15px auto 10px;
+	padding: 6px 0 3px 10px;
+	font-size: 30px;
+	font-weight: 700;
+    color: #101010;
+ 	border-left: 12px solid #5FA814;
+ 	border-bottom: 4px solid #5FA814;
+ 	box-sizing: border-box;
+}
+.tabs div.title h4 {
+	width: 95%;
+	margin: 30px auto;
+	text-align: center;
+	font-size: 26px;
+	font-weight: 700;
+    color: #5FA814;
+    letter-spacing: 0.05em;
+ 	box-sizing: border-box;
+}
+
+.sitetable {
+	width: 85%;
+	margin: 0 auto;
+}
+.sitetable th:nth-child(5){
+	width: 100%;
+	display: block;
+}
+
+.border-b{
+    border-bottom: 8px solid #60a814;
+}
+#charmblock {
+	width: 95%;
+	margin: 0 auto;
+}
+#charmMainGallery li {
+	margin: 15px 0;
+}
+.charmslider {
+	margin-right: 10px;
+	font-size: 16px;
+}
+
+.staffrecommend_inner_content table{
+  width: 100%;
+}
+.staffrecommend_inner_content table tr:nth-child(odd) {
+  color:#5FA814;
+}
+
+.staffrecommend_inner_content .point_ttl {
+  width: 100%;
+  display: block;
+  margin: 20px auto 10px;
+  font-size: 1.5em;
+    color:#5FA814;
+  font-weight: 700;
+}
+
+.staffrecommend .point_ttl {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  font-size: 1.5em;
+    font-weight:700;
+  color:#5FA814;
+}
+.staffrecommend_inner_content .tour_point {
+  width: 90%;
+  margin: 20px auto 40px;
+  color: #101010;
+  font-size: 1.2em;
+
+}
+.bo_bot {
+  border-bottom: 8px solid #5FA814;
+}
+/* 日程
+ -------------- */
+#scheduleblock #schedule table {
+  /*width: 550px;*/
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#scheduleblock #schedule table th {
+  padding: 5px 5px;
+  background-color: #60A814;
+  color: #fff;
+  border-left: solid 1px #CED1C4;
+  border-right: solid 1px #CED1C4;
+  border-bottom: solid 1px #ddd;
+  text-align: center;
+}
+
+#scheduleblock #schedule table tr {
+  border-bottom: solid 1px #101010;
+}
+
+#scheduleblock #schedule table td {
+  text-align: center;
+  border-right: solid 1px rgb(226, 226, 226);
+}
+
+#scheduleblock .inlineblock.schedule_inlineblock_api #schedule table td {
+  border: solid 2px rgb(226, 226, 226);
+}
+
+#scheduleblock #schedule table td:nth-child(2) {
+  text-align: left;
+  font-size: 23px;
+}
+#scheduleblock #schedule table td:nth-child(2) .head-description {
+  padding: 0 15px;
+}
+#scheduleblock #schedule table td:nth-child(2) .test_title {
+  display: block;
+  width: 100%;
+  margin: 0 0 10px 0;
+  color: #101010;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+#scheduleblock #schedule table td:nth-child(2) .info-optour .tab,
+#scheduleblock #schedule table td:nth-child(2) .access .tab {
+  display: flex;
+  width: 100%;
+  margin: 15px 0 0 0;
+}
+#scheduleblock #schedule table td:nth-child(2) .info-optour .tab li,
+#scheduleblock #schedule table td:nth-child(2) .access .tab li {
+  display: block;
+  width: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  color: white;
+  background: rgb(189, 199, 178);
+}
+
+#scheduleblock #schedule table td:nth-child(2) .tab-content li{
+  display: none;
+}
+
+#scheduleblock #schedule table td:nth-child(2) .tab li.active {
+  background: rgb(145, 194, 92);
+}
+#scheduleblock #schedule table td:nth-child(2) .tab-content .active {
+  display: block; 
+  margin: 10px 15px 20px;
+}
+
+#scheduleblock #schedule table td:nth-child(2) .info-optour .infomartion,
+#scheduleblock #schedule table td:nth-child(2) .info-optour .optour,
+#scheduleblock #schedule table td:nth-child(2) .access .access-info,
+#scheduleblock #schedule table td:nth-child(2) .access .access-info2 {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#scheduleblock #schedule table td:nth-child(2) .port_pdf a {
+  font-size: 18px;
+  color: rgb(84, 176, 212);
+  text-decoration: underline;
+  letter-spacing: .05em;
+}
+#scheduleblock #schedule table td:nth-child(2) .flexbox {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 0 0;
+  padding: 0 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+#scheduleblock #schedule table td:nth-child(2) .flexbox p {
+  color: white;
+  text-align: center;
+}
+
+#scheduleblock #schedule table td:nth-child(2) .address {
+  font-size: 16px;
+  margin: 0 0 0 15px;
+}
+
+#scheduleblock #schedule table td:nth-child(2) .map {
+  display: block;
+  height: 145px;
+  width: 49%;
+}
+#scheduleblock #schedule table td:nth-child(2) .image {
+  display: block;
+  height: 145px;
+  width: 49%;
+}
+#scheduleblock #schedule table td:nth-child(2) .map img,
+#scheduleblock #schedule table td:nth-child(2) .image img {
+  width: 100%;
+}
+
+#scheduleblock #schedule table td:nth-child(2) .access a {
+  font-size: 18px;
+  color: rgb(84, 176, 212);
+  text-decoration: underline;
+  letter-spacing: .05em;
+}
+
+
+#scheduleblock #schedule table td:nth-child(3) {
+  padding: 0 !important;
+  width: 15%;
+}
+#scheduleblock #schedule table td:nth-child(3) span {
+  display: block;
+}
+
+#scheduleblock #schedule table td:nth-child(3) .entering_port {
+  background: rgb(145, 194, 92);
+  color: white;
+  line-height: 40px;
+}
+
+#scheduleblock #schedule table td:nth-child(3) .leave_port {
+  background: rgb(92, 186, 194);
+  color: white;
+  line-height: 40px;
+}
+
+#scheduleblock #schedule table td:nth-child(3) .time {
+  color: #333;
+  line-height: 60px;
+  font-size: 20px;
+  letter-spacing: .05em;
+}
+
+#scheduleblock #schedule table td:nth-child(3) .nottime {
+  background: #ccc;
+}
+
+#scheduleblock .inlineblock table td div.port_description {
+  padding: 5px 5px 0px;
+  color: #444;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 24px;
+  font-family: Helvetica Neue, Helvetica, Hiragino Sans, 'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;
+}
+
+#scheduleblock .inlineblock #mapblock > img {
+  padding: 2px;
+  border: 2px solid #61ba00;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#scheduleblock .scale_map_img a {
+  display: inline-block;
+  color: white;
+  background: linear-gradient(#75d118,#5fa814);
+  padding: 8px 10px;
+  margin: 0 0 20px 0;
+  border-radius: 5px;
+  transform: scale(1.2);
+}
+#mapblock{
+  letter-spacing: .05em;
+  line-height: 1.5em;
+}
+
+.qanda_question,
+.qanda_answer{
+  max-width: 90%;
+  min-width: auto;
+  display: block;
+  position: relative;
+  background:white;
+  margin: 15px 0 0 0;
+  padding: 10px 15px;
+  color: white;
+  background: rgb(1,14,72);
+  /* background: #eeeeee; */
+  border-radius: 20px;
+  box-sizing: border-box;
+  letter-spacing: .01em;
+  line-height: 1.5em;
+}
+.qanda_question::before{
+  font-family: "Font Awesome 5 brands";
+  content: '\f2c4';
+  font-weight: 900;
+  position: absolute;
+  top: 5px;
+  left: -35px;
+  font-size: 1.2em;
+  color:rgb(1,14,72);
+  /* color: #202020; */
+}
+.qanda_answer::after{
+  font-family: "Font Awesome 5 Free";
+  content: '\f12a';
+  font-weight: 900;
+  position: absolute;
+  top: 5px;
+  right: -32px;
+  font-size: 1.4em;
+  color:#8cd146;
+}
+.qanda_answer:nth-child(1){
+display: block;
+}
+.qanda_answer{
+  display: none;
+  width: 95%;
+  margin: 5px 0 0 auto;
+  padding: 15px;
+  color: white;
+  /* background: rgb(178, 236, 120); */
+  background: #72c61d;
+  border: none;
+  font-weight: bold;
+}
+.qanda_answer span{
+  color: white;
+  font-weight: bold;
+}
+.q-balloon::before {
+  position: absolute;
+  top: 12px;
+  left:-12px;
+  font-size:1em;
+  color:rgb(1,14,72);
+  /* color: #eeeeee; */
+  content:"◀︎";
+}
+.a-balloon::before {
+  position: absolute;
+  top: 7px;
+  right:-15px;
+  font-size:1em;
+  color: #72c61d;
+  content:"▶";
+}
+.fa-search-plus{
+  font-size: .8em;
+  margin: 0 5px 0 0;
+}
+
+#scheduleblock .mapblock_caption {
+  width: 85%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.question_block{
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
+.question_block-moretext {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  line-height: 60px;
+  color: white;
+  background: #72c61d;
+  text-align: center;
+  z-index: 1;
+}
+#scheduleblock .mapblock_caption p {
+  /* margin: 10px 0 5px 0; */
+  text-decoration: none;
+}
+#scheduleblock .mapblock_caption .underline_yellow {
+  /* background: linear-gradient(transparent 60%,yellow 40%); */
+}
+
+#scheduleblock .inlineblock a.bnr_port_information {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 26px;
+}
+
+#schedule > img,
+#schedule > a > img,
+#schedule > .f_sche > a > img {
+  width: 100%;
+}
+
+/* 寄港地
+ -------------- */
+#siteblock #siteleft p {
+  width: 100%;
+  color: #101010;
+  font-size: 22px;
+  letter-spacing: 0.05em;
+  line-height: 1.6em;
+  text-align: justify;
+}
+
+#siteblock #siteleft #site_note {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  color: #101010;
+  font-size: 24px;
+  letter-spacing: 0.05em;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+#siteblock #siteleft img.siteimage {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 0 20px 0;
+  /*float: left;*/
+  /*padding: 5px;*/
+/*  border: 2px solid #61ba00;
+  background-color: #fff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin: 2px auto 4px auto;
+*/}
+
+#siteblock #siteleft p.text {
+  width: 180px;
+  line-height: 150%;
+  float: right;
+}
+
+#siteblock #siteright {
+  padding: 10px 10px 5px;
+  margin-bottom: -5px;
+  /* border-bottom: solid 1px #ccc; */
+  clear: both;
+}
+
+/*
+#siteblock #sitegallery .bx-wrapper a {
+  font-size: 13px;
+}
+#siteblock #sitegallery ul {
+  margin-top: 20px;
+}
+
+*/
+#siteblock #sitegallery li a {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+}
+#siteblock #sitegallery li a img {
+    width: 97%;
+    padding: 2px 2px 2px 2px;
+    border: 1px solid #5fa814;
+    margin-bottom: 10px;
+/*    border: 2px solid #61ba00;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;*/
+}
+#siteblock .sitetableblock {
+/*  border-bottom: dotted 1px #ccc;*/
+  margin-bottom: 0px;
+}
+
+#siteblock .sitetable th {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#siteblock .sitetable td {
+  font-size: 18px;
+  vertical-align: middle;
+}
+#siteblock .sitetable td #site_country {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+#siteblock .sitetable td img {
+  vertical-align: middle;
+  margin-right: 14px;
+}
+
+#siteblock .sitetable td p {
+  font-size: 17px;
+  color: #1F347C;
+  font-weight: bold;
+}
+
+#siteblock .sitetable th,
+#siteblock .sitetable td {
+  padding: 0 5px;
+  display: inline;
+}
+
+#siteblock #site_point_title {
+  font-weight: bold;
+  font-size: 20px;
+  display: inline;
+  margin: 10px 0 0 0;
+}
+
+#siteblock #site_point {
+  font-size: 24px;
+}
+
+.point_cruisecompany{
+  margin: 40px 0 0 0;
+}
+
+/* 船内施設の魅力
+---------------------------*/
+#charmblock #charmgallery .charmslider .inner-border {
+/*  box-shadow:0px 0px 0px 2px #61ba00 inset;
+  -moz-box-shadow:0px 0px 0px 2px #61ba00 inset;
+  -webkit-box-shadow:0px 0px 0px 2px #61ba00 inset;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;*/
+}
+#charmblock #charmgallery .charmslider .inner-border img {
+  z-index: -1;
+  position: relative;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#charmblock .inlineblock-line li {
+  display: flex;
+  justify-content: space-between;
+}
+
+#charmblock .inlineblock-line li div.charmLeft {
+  display: inline-block;
+  width: 40%;
+}
+#charmblock .inlineblock-line li div.charmLeft .inner-border {
+  overflow: hidden;
+}
+#charmblock .inlineblock-line li div.charmLeft .inner-border img {
+  padding-bottom: 15px;
+  width: 100%;
+  object-fit: cover;
+}
+#charmblock .inlineblock-line li div.charmRight {
+  display: inline-block;
+  width: 55%;
+  height: 100%;
+  vertical-align: top;
+}
+#charmblock .inlineblock-line li div.charmRight span {
+  min-width: 100%;
+  display: block;
+  font-weight: bold;
+  font-size:1em;
+  color: #101010;
+  border-bottom: 4px solid #fd9b57;
+  margin:-6px 0 5px 0;
+  letter-spacing: 0.025em;
+  line-height: 1.5em;
+}
+#charmblock .inlineblock-line li div.charmRight div {
+  padding-top: 2.5px;
+  font-size:1em;
+  letter-spacing: 0.05em;
+  line-height: 1.25em;
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* 船内施設パンフレット
+---------------------------*/
+#charmblock #charminfo span.nolink {
+  color: #999999;
+}
+#charmblock #charminfo span.nolink img {
+  filter: alpha(opacity=70);
+  -moz-opacity:0.7;
+  opacity:0.7;
+}
+#charmblock #charminfo span.nodisplay {
+  display: none;
+}
+.bx-wrapper {
+  margin: 0 auto 40px !important;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+  margin: 5px !important;
+}
+.bx-controls-direction a {
+  top: 15% !important;
+  margin-top: 0 !important;
+}
+#charmblock .bx-pager  {
+/*
+    margin-bottom: -20px;
+*/
+  position: relative;
+  top: 0;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+#charmblock #charminfo ul.ul_panf_1 li:nth-child(1) a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+#charmblock #charminfo ul.ul_panf_1 li:nth-child(2) a {
+  font-weight: bold;
+}
+#charmblock #charminfo ul.ul_panf_1 li:nth-child(1) a img {
+  border: 5px solid #5aa82a;
+}
+#charmblock #charminfo ul.ul_panf_1 li:nth-child(2) a img {
+  border: 2px solid #5aa82a;
+}
+#charmblock #charminfo ul.ul_panf_2 li:nth-child(1) a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+#charmblock #charminfo ul.ul_panf_2 li:nth-child(2) a {
+  font-weight: bold;
+}
+#charmblock #charminfo ul.ul_panf_2 li:nth-child(1) a img {
+  border: 3px solid #000b65;
+}
+#charmblock #charminfo ul.ul_panf_2 li:nth-child(2) a img {
+  border: 2px solid #000b65;
+}
+
+
+/* クチコミ
+---------------------------*/
+body.LC_Page_Products_Detail .detail-blc-tabarea .reviewdatablock * {
+
+    font-size: 18px;
+
+}
+#reviewblock .inlineblock {
+  margin-top: 1px;
+  padding: 2px 12px;
+  border-top: solid 1px #ccc;
+}
+
+#reviewblock #reviewbuttonblock {
+  width: 257px;
+  position: relative;
+}
+#reviewblock div.nonereview {
+  margin: 16px 0 18px 0;
+}
+
+#reviewblock #review_count {
+  position: absolute;
+  right: 8px;
+  top: 6px;
+  color: #333;
+}
+#reviewblock #reviewbuttonblock_info {
+  position: absolute;
+  right: 19px;
+  top: 44px;
+  height: 45px;
+  border-radius: 5px;
+  border: 2px solid #86BCE8;
+
+}
+#reviewblock #reviewbuttonblock_info p {
+  padding: 6px 0 0 70px;
+  font-size: 14px;
+}
+
+#reviewblock .reviewrow {
+  margin-top: 2px;
+  width: 100%;
+}
+
+#reviewblock .reviewdetail {
+  overflow: hidden;
+  border: 3px solid #61ba00;
+  background-color: #F2F2E8;
+  padding: 4px 4px;
+  margin-bottom: 8px;
+}
+#reviewblock .reviewdetail_current_product {
+  overflow: hidden;
+  background-color: #F2F2E8;
+  border: 3px solid #60B900;
+  padding: 4px 4px;
+  margin-bottom: 8px;
+}
+
+#reviewblock .reviewimageblock div {
+  position: relative;
+}
+
+#reviewblock .reviewoutline {
+  background-color: #fff;
+  padding: 3px 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+#reviewblock .reviewoutline div.bottomblock {
+  border-top: dotted 1px #ccc;
+}
+
+#reviewblock .reviewoutline div.bottomblock p.area {
+  width: 588px;
+}
+
+#reviewblock .reviewoutline div {
+  overflow: hidden;
+  padding: 5px 0;
+}
+
+#reviewblock .reviewoutline .entrydate {
+    text-align: right;
+    width: auto;
+    font-size: 20px;
+    line-height: normal;
+}
+
+#reviewblock .reviewoutline .ship {
+  border-left: dotted 1px #ccc;
+  padding-left: 5px;
+}
+
+#reviewblock .reviewoutline p span {
+  color: #0066CC;
+  font-weight: bold;
+}
+
+#reviewblock .reviewoutline .nickname {
+    float: left;
+    width: auto;
+    letter-spacing: 1px;
+}
+
+#reviewblock .reviewoutline .nickname span {
+  color: #026402;
+  font-size: 22px;
+}
+
+#reviewblock .reviewpoint {
+  background-color: #fff;
+  border: solid 1px #AEAE6F;
+  margin-top: 5px;
+}
+
+#reviewblock .reviewpoint table {
+  width: 100%;
+}
+
+#reviewblock .reviewpoint table th {
+  width: 150px;
+  padding: 1px;
+  border-bottom: dotted 1px #ccc;
+}
+
+#reviewblock .reviewpoint table td {
+  padding: 1px;
+  border-bottom: dotted 1px #ccc;
+}
+
+#reviewblock .reviewpoint table td.bold {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+#reviewblock .reviewlink {
+  padding: 5px;
+  position: relative;
+  min-height: 26px;
+}
+
+#reviewblock .reviewlink a {
+  letter-spacing: 0;
+}
+
+#reviewblock .reviewlink a.reviewentry {
+  position: absolute;
+  left: 170px;
+  text-decoration: underline;
+}
+
+#reviewblock .reviewlink a.btn_review_comment {
+  position: absolute;
+  top: 6px;
+  left: 315px;
+}
+
+#reviewblock .reviewlink a.btn_review_fav {
+  position: absolute;
+  top: 6px;
+  right: 5px;
+}
+
+#reviewblock .reviewcomment {
+  background-color: #fff;
+}
+#reviewblock .reviewcomment .reviewnext {
+  float: right;
+}
+#reviewblock .reviewcomment .review-comment-remains {
+    display:none;
+}
+
+#reviewblock .reviewcomment .reviewcomment_right {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  margin-top: -11px
+}
+
+#reviewblock .reviewcomment p {
+  font-size: 18px;
+  padding: 4px;
+}
+
+#reviewblock .reviewlink a {
+  letter-spacing: 0;
+}
+
+#reviewblock .reviewlink a img {
+  vertical-align: bottom;
+}
+
+#reviewblock .reviewlink a.textlink {
+  text-decoration: underline;
+  margin-right: 17px;
+}
+
+#reviewblock .reviewlink a.textlink span {
+  color: #CC3300;
+  font-weight: bold;
+  letter-spacing: 0;
+  text-decoration: underline;
+}
+
+
+/* 旅行準備お役立ち情報
+ * ---------------------------*/
+
+#travellinkblock .inlineblock {
+  padding: 0 0 2px 0;
+  margin-bottom: 10px;
+}
+
+#travellinkblock div.title h2 {
+  top: 3px;
+}
+
+#travellinkblock div.travellinksubtitle {
+  font-weight: normal;
+  font-size: 13px;
+  margin-top: 2px;
+  padding: 8px;
+  text-decoration: underline;
+}
+
+#travellinkblock h3 {
+  display: block;
+  // background: url("../../default/img/detail/ico_guide.gif") no-repeat 0 0;
+  padding-left: 15px;
+  margin: 5px auto 0 auto;
+
+}
+
+#travellinkblock table {
+  width: 100%;
+  margin: 5px auto 0 auto;
+  border-collapse: collapse;
+}
+
+#travellinkblock table th,
+#travellinkblock table td {
+  border-collapse: collapse;
+  border: solid 1px #ccc;
+  padding: 3px 15px;
+  text-align: left;
+}
+
+#travellinkblock table tr.table_aui_insurance th,
+#travellinkblock table tr.table_aui_insurance td {
+  padding: 15px 15px;
+  font-size: 115%;
+}
+
+#travellinkblock table th a {
+  font-size: 95%;
+  font-weight: bold;
+}
+
+#travellinkblock table tr.table_aui_insurance th {
+  background-color: #FF9B51;
+}
+#travellinkblock table tr.table_travel_hotel th {
+  background-color: #52B8E6;
+}
+#travellinkblock table tr.table_travel_goods th {
+  background-color: #009E96;
+}
+#travellinkblock table tr.table_travel_gift th {
+  background-color: #EA6B7D;
+}
+#travellinkblock table tr.table_aui_insurance th a,
+#travellinkblock table tr.table_travel_hotel th a,
+#travellinkblock table tr.table_travel_goods th a,
+#travellinkblock table tr.table_travel_gift th a {
+  color: white;
+}
+
+#travellinkblock table th {
+  width: 170px;
+  border-width: 1px 1px 1px 1px;
+  background-color: #EDF1FA;
+  color: #00064D;
+  vertical-align: middle;
+}
+
+#travellinkblock table td {
+  border-width: 1px 1px 1px 1px;
+}
+
+
+/* 規約
+---------------------------*/
+
+#guideblock .inlineblock {
+  padding: 0 0 2px 0;
+}
+
+
+#guideblock div.title h2 {
+  top: 3px;
+}
+
+#guideblock div.guidesubtitle {
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: 2px;
+}
+
+#guideblock h3 {
+  display: block;
+  // background: url("../../default/img/detail/ico_guide.gif") no-repeat 0 0;
+  padding-left: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 5px auto 0 auto;
+
+}
+
+#guideblock table {
+  width: 100%;
+  margin: 5px auto 0 auto;
+  border-collapse: collapse;
+}
+
+#guideblock table th,
+#guideblock table td {
+  border-collapse: collapse;
+  border: solid 1px #ccc;
+  padding: 3px 15px;
+  text-align: left;
+}
+
+#guideblock table th {
+  width: 170px;
+  border-width: 1px 1px 1px 1px;
+  background-color: #EDF1FA;
+  color: #00064D;
+}
+
+#guideblock table td {
+  border-width: 1px 1px 1px 1px;
+}
+
+#guideblock table.table-ones-travel-info th {
+  background-color: #fff;
+}
+
+#guideblock table.table-ones-travel-info th,
+#guideblock table.table-ones-travel-info tr a {
+  font-size: 13px;
+}
+
+#guideblock table.table-ones-travel-info td a:visited,
+#guideblock table.table-ones-travel-info td a:active {
+  color: #000;
+}
+
+#guideblock table.table-ones-travel-info td a:hover {
+  text-decoration: underline;
+}
+
+#guideblock table.table-host {
+  margin-top: 30px;
+}
+
+#guideblock table .table-host-company {
+    font-size:13px;
+}
+
+#guideblock div .detail-creator-name {
+    text-align:right;
+    font-size:8px;
+}
+
+#charmblock #charminfo ul {
+  display: table;
+  margin: 10px 0 10px;
+  width: 100%;
+}
+
+#charmblock #charminfo ul li {
+  display: table-cell;
+  width: 180px;
+  text-align: center;
+}
+
+#charmblock #charminfo ul li a {
+  text-align: left;
+}
+
+#charmblock #charminfo > h3 {
+    margin-left: 20px;
+}
+
+#charmblock #charminfo .readMorePanf {
+  display: none;
+}
+#charmblock #charminfo .readMorePanfBtn {
+  // margin-left: 10px;
+}
+#charmblock #charminfo .readClosePanfBtn {
+  display: none;
+  margin-top: 168px;
+  margin-right: 20px;
+}
+
+
+/* [20180920/sato] パンフレット用ブロック 5列 */
+.pampblock_5row {
+  display: inline-block;
+  margin: 15px 0px 10px;
+}
+.pampblock_5row ul {
+  display: table;
+  margin: 5px 0 5px;
+}
+.pampblock_5row ul li {
+  display: table-cell;
+  width: 210px;
+  text-align: center;
+}
+.pampblock_5row ul li a img {
+  width: 150px;
+  border: 2px solid #99B8C8;
+  padding: 3px;
+}
+.pampblock_5row ul li a p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: underline;
+  padding-top: 5px;
+}
+
+
+/* 料金
+---------------------------*/
+#shipinfoblock .inlineblock {
+  margin-top: 3px;
+  padding: 5px 4px;
+  /* border-top: solid 1px #ccc; */
+}
+
+#shipinfoblock table {
+	width: 100%;
+}
+
+#shipinfoblock #roomgallery {
+  overflow: hidden;
+  margin-bottom: 10px;
+  padding: 6px 2px;
+}
+
+#shipinfoblock #roomgallery .roomgallery_inner {
+  margin: 0 0 50px 0;
+}
+
+
+body.LC_Page_Products_Detail #shipinfoblock #roomgallery .roomgallery_list .roomgallery_inner--top .inner--top_image {
+  display: block;
+}
+
+body.LC_Page_Products_Detail #shipinfoblock #roomgallery .roomgallery_list .room_title {
+  color: orange;
+  font-weight: 700;
+  font-size: 25px;
+  letter-spacing: .05em;
+  line-height: 1.6em;
+}
+body.LC_Page_Products_Detail #shipinfoblock #roomgallery .roomgallery_list .room_width,
+body.LC_Page_Products_Detail #shipinfoblock #roomgallery .roomgallery_list .room_capacity {
+  display: block;
+  font-size: 22px;
+  font-weight: bold;
+  color: (0,0,0,.75);
+  margin: 18px 0 0;
+}
+body.LC_Page_Products_Detail #shipinfoblock #roomgallery .roomgallery_list .room_capacity {
+  margin: 10px 0 0;
+}
+
+
+/* #shipinfoblock #roomgallery .roomgallery_list li {
+  margin: 0 4px;
+  text-align: center;
+  font-size: 14px;
+  padding: 5px 8px 2px 8px;
+  padding: 7px 3px 2px 3px;
+  width: 140px;
+  overflow: hidden;
+} 
+ */
+#shipinfoblock #roomgallery ul li img {
+  /* border: solid 1px #051C69; */
+}
+
+#shipinfoblock #roomgallery ul li .roomspecial_open {
+  display: inline-block
+  border: 2px solid #333;
+  background-color: #8DC132;
+  margin-bottom: 10px;
+  padding: 10px 20px 10px;
+  color: #fff;
+  font-weight: bold;
+}
+
+#shipinfoblock #roomgallery ul li .roomspecial_close {
+  display: none;
+  border: 2px solid #333;
+  background-color: #8DC132;
+  margin-bottom: 10px;
+  padding: 10px 20px 10px;
+  color: #fff;
+  font-weight: bold;
+}
+
+#shipinfoblock #roomgallery ul li .roomspecial {
+  display: none;
+  width: 95%;
+  margin: 0 0 0 20px;
+  overflow: visible;
+}
+
+#shipinfoblock #roomgallery ul li .roomspecial h3 {
+  margin: 0 0 0 -20px;
+}
+
+#shipinfoblock #roomgallery ul li .roomspecial ul {
+  overflow: visible;
+  list-style-type: disc;
+}
+#shipinfoblock #roomgallery ul li .roomspecial li {
+  margin: 10px 0 10px 0;
+  font-size: 18px !important;
+  text-align: left;
+}
+
+/* iOSでのデフォルトスタイルをリセット */
+#shipinfoblock #roomgallery ul li input.roomspecial_open[type="button"],
+#shipinfoblock #roomgallery ul li input.roomspecial_close[type="button"] {
+  border-radius: 0;
+  -webkit-box-sizing: content-box;
+  -webkit-appearance: button;
+  appearance: button;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+#shipinfoblock #roomgallery ul li input.roomspecial_open[type="button"]::-webkit-search-decoration,
+#shipinfoblock #roomgallery ul li input.roomspecial_close[type="button"]::-webkit-search-decoration {
+  display: none;
+}
+#shipinfoblock #roomgallery ul li input.roomspecial_open[type="button"]::focus,
+#shipinfoblock #roomgallery ul li input.roomspecial_close[type="button"]::focus {
+  outline-offset: -2px;
+}
+
+#shipinfoblock #tabmonth {
+  width: 780px;
+  margin: 15px 0;
+  overflow: hidden;
+  border-bottom: solid 2px #4D9108;
+  padding: 0 10px;
+}
+
+#shipinfoblock #tabmonth li {
+  float: left;
+  margin: 0 1px;
+  width: 63px;
+  height: 28px;
+}
+
+#shipinfoblock #tabmonth li a {
+  display: block;
+  text-indent: -9999px;
+  overflow: hidden;
+  width: 63px;
+  height: 28px;
+  background: url("../img/detail/tab_month.jpg") no-repeat 0 0;
+}
+
+#shipinfoblock #tabmonth li a#PRICETAB01 { background-position: 0 0; }
+#shipinfoblock #tabmonth li a#PRICETAB02 { background-position: -63px 0; }
+#shipinfoblock #tabmonth li a#PRICETAB03 { background-position: -126px 0; }
+#shipinfoblock #tabmonth li a#PRICETAB04 { background-position: -189px 0; }
+#shipinfoblock #tabmonth li a#PRICETAB05 { background-position: -252px 0; }
+#shipinfoblock #tabmonth li a#PRICETAB06 { background-position: -315px 0; }
+#shipinfoblock #tabmonth li a#PRICETAB07 { background-position: -378px 0; }
+#shipinfoblock #tabmonth li a#PRICETAB08 { background-position: -441px 0; }
+#shipinfoblock #tabmonth li a#PRICETAB09 { background-position: -504px 0; }
+#shipinfoblock #tabmonth li a#PRICETAB10 { background-position: -567px 0; }
+#shipinfoblock #tabmonth li a#PRICETAB11 { background-position: -630px 0; }
+#shipinfoblock #tabmonth li a#PRICETAB12 { background-position: -693px 0; }
+
+
+#shipinfoblock #pricetable_default table {
+  width: 100%px;
+  border: solid 1px #ccc;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+#shipinfoblock #pricetable_default th,
+#shipinfoblock #pricetable_default td {
+  border-collapse: collapse;
+}
+
+#shipinfoblock #pricetable_default th {
+  background-color: #60A814;
+  color: #fff;
+  font-weight: bold;
+  padding: 1px 0;
+}
+
+#shipinfoblock #pricetable_default th.date {
+}
+
+#shipinfoblock #pricetable_default td {
+  text-align: center;
+  padding: 1px 0;
+  word-break: break-all;
+}
+
+#shipinfoblock #pricetable_default td.border_right {
+  border-right: solid 1px #ccc;
+}
+
+#shipinfoblock #pricetable_default td div {
+  border: solid 1px #63AA02;
+  padding: 4px 7px;
+  margin: 5px 0 10px 0;
+}
+
+#shipinfoblock #pricetable_default td div p {
+  height: 20px;
+  padding-top: 3px;
+  background: url("../img/detail/ico_camera.jpg") no-repeat 0 0;
+  margin-bottom: 5px;
+}
+
+#shipinfoblock div#online_price table.other_price_list tbody tr th,
+#shipinfoblock div#online_price table.other_price_list tbody tr td {
+    padding: 10px;
+}
+#shipinfoblock div#online_price>.other_price_list::-webkit-scrollbar {
+    height: 30px;
+}
+#shipinfoblock div#online_price>.other_price_list::-webkit-scrollbar-track {
+    background: #F1F1F1;
+}
+#shipinfoblock div#online_price>.other_price_list::-webkit-scrollbar-thumb {
+    background: #BCBCBC;
+}
+#shipinfoblock div#online_price table.other_price_list tbody tr.open td .other_price_list tbody tr th,
+#shipinfoblock div#online_price table.other_price_list tbody tr.open td .other_price_list tbody tr td {
+    -webkit-text-size-adjust: 100%;
+    text-align: center;
+}
+
+#shipinfoblock table.other_price_list {
+}
+
+#shipinfoblock table.other_price_list th {
+  width: 175px;
+  background-color: #F0F0F0;
+  font-weight: bold;
+  color: #333;
+  border: solid 1px #ccc;
+  padding: 1px 5px;
+}
+#shipinfoblock table.other_price_list td {
+  width: auto;
+  border: solid 1px #ccc;
+  text-align: left;
+  padding: 1px 5px;
+}
+#shipinfoblock table.other_price_list table.other_price_list tr:nth-child(odd) td {
+  background-color: #f2f2f2;
+}
+#shipinfoblock table.other_price_list table.other_price_list tr td.cell-color {
+  background-color: #eee;
+}
+#shipinfoblock #online_price table.other_price_list table.other_price_list tr:first-child th:first-child {
+  background-color: rgba(105, 214, 255, 1) !important;
+  color: #111 !important;
+}
+#shipinfoblock #online_price table.other_price_list table.other_price_list tr:nth-child(n+2) td:first-child {
+  background-color: rgba(105, 214, 255, 1) !important;
+  color: #111 !important;
+  font-size: 25px !important;
+}
+#shipinfoblock #online_price table.other_price_list table.other_price_list tr:nth-child(n+2) td:first-child a{
+  font-size: 25px !important;
+}
+#shipinfoblock table.other_price_list tr .check {
+    background-color: #0066cc;
+    color: white;
+}
+#shipinfoblock table.other_price_list tr .nocheck {
+    background-color: #d5f2ff;
+    color: #333333;
+    font-size: 22px
+}
+
+#shipinfoblock table.other_price_list .close {
+  display: none;
+}
+
+#shipinfoblock table.other_price_list .date {
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #D5F2FF;
+  border: solid 1px #000;
+  padding-bottom: 20px !important;
+}
+
+#shipinfoblock table.other_price_list .date {
+  font-size: 18px;
+}
+#shipinfoblock div#online_price table.other_price_list .date {
+  font-size: 22px !important;
+}
+
+#shipinfoblock table.verticaltable {
+}
+#shipinfoblock table.verticaltable th {
+  width: 250px;
+  border: solid 1px #ccc;
+}
+#shipinfoblock table.verticaltable td {
+  width: auto;
+  border: solid 1px #ccc;
+}
+
+
+
+
+
+
+/* indox 旧サイトのご案内・ご注意・お取消料
+---------------------------*/
+table.indox  {
+}
+table.indox td.midashi {
+  width: 170px;
+  border-width: 1px 1px 1px 0;
+  background-color: #EDF1FA;
+  color: #00064D;
+}
+table.indox td.midashi strong {
+  font-weight: bold;
+}
+table.indox td.shosai {
+}
+
+#guideblock table.indox  table {
+  width: 100%;
+}
+#guideblock table.indox td.style102 {
+  padding: 3px;
+  border-width: 1px;
+}
+
+/* indox 客船情報とクルーズ料金
+---------------------------*/
+#shipinfoblock #pricetable_1 table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ddd;
+}
+#shipinfoblock #pricetable_1 table td,
+#shipinfoblock #pricetable_1 table th {
+  padding: 1px 3px;
+  border: #bbb 1px solid;
+  font-size: 22px !important;
+}
+#shipinfoblock #pricetable_1 table td *,
+#shipinfoblock #pricetable_1 table th * {
+  font-size: 22px !important;
+}
+#shipinfoblock #pricetable_1 .style138 {
+  color: #FF0000;
+}
+#shipinfoblock #pricetable_1 .point_ttl {
+  color: #003399;
+  font-weight: bolder;
+}
+
+#shipinfoblock #pricetable_1 table strong {
+  font-weight: bold;
+  font-size: 22px;
+}
+#shipinfoblock #pricetable_1 .style143 {
+  color: #FF0000;
+}
+
+
+.on_board_equipment,
+.no_on_board_equipment {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  width: 98%;
+}
+.on_board_equipment {
+  margin: 15px 0 0 0 !important;
+}
+
+
+.on_board_equipment li {
+  width: 30%;
+  display: flex;
+  color: #101010;
+  margin: 0 3% 20px 0;
+  font-weight: 700;
+  font-size: 18px !important;
+}
+
+.on_board_equipment li img {
+  width: 34px;
+  height: 34px;
+  padding: 0 7px 0 0;
+}
+.on_board_equipment li span {
+  font-size: 18px !important;
+  margin: 6px 0 0 0;
+}
+
+.no_on_board_equipment {
+  padding: 10px 0 15px ;
+}
+.no_on_board_equipment_title {
+  font-weight: bold;
+  color: rgb(83, 148, 18);
+  font-size: 20px !important;
+}
+.no_on_board_equipment li {
+  display: flex;
+  width: 48% !important;
+  line-height: 1.5em;
+  text-align: left !important;
+  font-size: .8em !important;
+  color: #101010;
+  letter-spacing: .05em;
+  line-height: 1.6em;
+}
+.no_on_board_equipment li::before {
+  content: "・";
+  font-size: 1.2em;
+  color: green;
+}
+/* クルーズプラネット 客船情報とクルーズ料金 #pricetable_2
+---------------------------*/
+#shipinfoblock #pricetable_2 table.price {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  color: #000;
+  font-weight: normal;
+}
+#shipinfoblock #pricetable_2 table.price th.price-gray-black2 {
+  border: 1px solid #CCCCCC;
+}
+#shipinfoblock #pricetable_2 table.price td {
+  border: 1px solid #CCCCCC;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+#shipinfoblock #pricetable_2 .price-gray {
+  background-color: #EBEBEB;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  border-bottom: solid 1px #B7B7B7;
+}
+#shipinfoblock #pricetable_2 .price-gray-black {
+  background-color: #EBEBEB;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: center;
+  border-bottom: solid 1px #B7B7B7;
+  font-weight: bold;
+}
+#shipinfoblock #pricetable_2 strong {
+  font-weight: bold;
+}
+#shipinfoblock #pricetable_2 .mb {
+  line-height: 130%;
+  font-weight: bold;
+  color: #000000;
+}
+#shipinfoblock #pricetable_2 .price-gray-black2 {
+  background-color: #E4E4E4;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: solid 1px #B7B7B7;
+}
+#shipinfoblock #pricetable_2 .price-gray-black2 * {
+  text-align: center;
+  font-weight: bold;
+}
+#shipinfoblock #pricetable_2 .price-white {
+  background-color: #ffffff;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  border-bottom: solid 1px #B7B7B7;
+}
+#shipinfoblock #pricetable_2 .price-white-black {
+  background-color: #ffffff;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: solid 1px #B7B7B7;
+}
+#shipinfoblock #pricetable_2 .price-white-black * {
+  font-weight: bold;
+}
+#shipinfoblock #pricetable_2 .tdline-white {
+  background-color: #ffffff;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  font-size: 12px;
+  line-height: 130%;
+  border-bottom: solid 1px #B7B7B7;
+}
+/* おすすめポイント
+----------------------------*/
+#staffblock div.staffrecommend_pricetable_1 strong {
+  font-weight: bold;
+  font-size: 14px;
+}
+#staffblock div.staffrecommend_pricetable_1 td.point_ttl *,
+#staffblock div.staffrecommend_pricetable_1 td.point_ttl div.point_ttl,
+#staffblock div.staffrecommend_pricetable_1 td.point_ttl {
+  font-weight: bold;
+  color: #5FA814;
+  margin: 20px 0 5px 0;
+}
+#staffblock div.staffrecommend_pricetable_1 td.point_ttl li,
+#staffblock div.staffrecommend_pricetable_1 td.point_ttl div,
+#staffblock div.staffrecommend_pricetable_1 td.point_ttl p {
+  margin: 0px;
+  padding: 0px;
+  font-weight: normal;
+}
+#staffblock div.staffrecommend_pricetable_1 .style245 {
+  color: #FF0099;
+  font-weight: bold;
+}
+#staffblock div.staffrecommend_pricetable_1 span.style254,
+#staffblock div.staffrecommend_pricetable_1 span.style254 * {
+  color: #0000FF;
+}
+#staffblock div.staffrecommend_pricetable_1 td.point_ttl .style102 strong,
+#staffblock div.staffrecommend_pricetable_1 td.point_ttl .style102 {
+color: #000000;
+font-size: 12px;
+}
+#shipinfoblock #pricetable_1 .style8,
+#shipinfoblock div.staffrecommend_pricetable_1 .style8 {
+  font-weight: bold;
+}
+#staffblock div.staffrecommend_pricetable_1 td.point_ttl .style257,
+#staffblock div.staffrecommend_pricetable_1 td.point_ttl .style257 *,
+#staffblock div.staffrecommend_pricetable_1 .style257 {
+  color: #ff0066;
+}
+#staffblock div.staffrecommend_pricetable_1 td.point_ttl .style102 {
+  color: #000000;
+  font-size: 12px;
+  font-weight: normal;
+}
+#staffblock div.staffrecommend_pricetable_1 td.point_ttl .style284 {
+  color: #FF0066;
+  font-weight: bold;
+}
+#staffblock div.staffrecommend_pricetable_1 td.point_ttl .style142 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+}
+strong {
+  font-weight: bold;
+}
+strong * {
+  font-weight: bold;
+}
+
+/*
+#staffblock #staffrecommend {
+  width: 95%;
+  min-height: 120px;
+  padding: 5px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+#staffblock #staffrecommend div.staffrecommend_pricetable_1 {
+  color:#333333;
+  font-size:14px;
+  font-weight:bold;
+  float: left;
+  width: 575px;
+  margin-left: 0;
+}
+
+#staffblock #staffrecommend ul {
+  width: 580px;
+  margin-left: 30px;
+  padding-top: 5px;
+  float: left;
+}
+
+#staffblock #staffrecommend ul li {
+  margin-top: 5px;
+  padding-left: 25px;
+  color: #003399;
+  background: url("../img/detail/ico_point.gif") no-repeat 0 center;
+}
+*/
+
+
+
+/* スケジュール クルーズプラネット
+----------------------------*/
+.sb {
+  line-height: 130%;
+  font-weight: bold;
+}
+.sb font {
+  line-height: 130%;
+  font-weight: bold;
+}
+
+.rsb *,
+.rsb {
+  color: #ff0000;
+  font-weight: bold;
+}
+.rs *,
+.rs {
+  color: #ff0000;
+}
+.rmb {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 120%;
+  color: #ff0000;
+}
+#schedule_inlineblock_pricetable_2 span.op {
+text-transform: uppercase;
+color: #006600;
+font-weight: bold;
+}
+#schedule_inlineblock_pricetable_2 .color-green {
+color: #006600;
+}
+#schedule_inlineblock_pricetable_2 table.tour_sche th.day {
+  width: 30px;
+}
+#schedule_inlineblock_pricetable_2 .nrt {
+  background-color: #FFCC00;
+  padding-top: 3px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  font-weight: bold;
+  margin-right: 5px;
+  width: 60px;
+  color: #000000;
+}
+#schedule_inlineblock_pricetable_2 .op2013 {
+  background-color: #BBEABB;
+  padding-top: 0px;
+  padding-right: 5px;
+  padding-bottom: 0px;
+  padding-left: 5px;
+  font-weight: bold;
+  margin-right: 4px;
+  margin-left: 1px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #194E02;
+  height: 100%;
+}
+#schedule_inlineblock_pricetable_2 .grs {
+  color: #006600;
+  font-weight: bold;
+}
+#schedule_inlineblock_pricetable_2 .bls {
+  color: #0000ff;
+}
+#schedule_inlineblock_pricetable_2 .rs {
+  color: #ff0000;
+}
+/* スケジュール 旧サイト
+----------------------------*/
+#scheduleblock #schedule .jap_conductor {
+  color: #FF0000;
+}
+#scheduleblock #schedule .disney_dream {
+  color: #00F;
+}
+#scheduleblock #schedule table.tour_sche td.nay {
+  text-align: left;
+}
+#scheduleblock #schedule .style143 {
+  color: #FF0000;
+}
+
+.txt_m2 {
+  vertical-align: text-top;
+  font-size: 75%;
+}
+
+table.other_price_list .nosp {
+  display: none;
+}

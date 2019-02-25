@@ -1,0 +1,518 @@
+body {
+  width: 100%;
+  padding: 0 0 50px 0;
+}
+
+/* header----start */
+header {
+  background: #2778AC;
+  height: auto;
+  padding: 0 0 10px 0;}
+header h2 {
+  max-width: 960px;
+  font-size: 1.5em;
+  font-weight: 700;
+  background: #2778AC;
+  color: white;
+  margin: 0 auto;
+  padding: 15px 15px 5px;
+  text-align: left;
+  box-sizing: border-box;}
+header p {
+  max-width: 960px;
+  font-size: .9em;
+  color: white;
+  margin: 0 auto;
+  padding: 0 15px;
+  text-align: left;
+  box-sizing: border-box;}
+/* header----end */
+
+/* form----start */
+.far {
+  color: #8c8c8c;
+}
+.far:hover {
+  color: #8c8c8c;
+}
+.form-wrap {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box; }
+.main_passport--title {
+  background: #5fa814;
+  color: white;
+  text-align: center;
+  line-height: 2em;
+  border-radius: 5px;}
+.danger-caption {
+  margin: 0 0 20px 0;
+  text-align: center;
+  color:red;
+  font-size: 1.5em;
+  line-height: 1.5em;}
+.danger-box {
+  border: 2px solid #A94442;
+  text-align: center;
+  padding: 0 20px 10px;
+  box-sizing: border-box;
+}
+.danger-box_caption {
+  width: 200px;
+  margin: -10px auto 20px;
+  background: white;
+  color: #a94442;
+  font-size:1.5em;}
+h3.fragment-title {
+  text-align: center;
+  background: #88BE50;
+  color: white;
+  line-height: 1.75em;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+h3.fragment-title_user {
+  text-align: center;
+  background: #F0AF00;
+  color: white;
+  line-height: 1.75em;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+h3#fragment-title_danger {
+  text-align: center;
+  background: #A94442;
+  color: white;
+  line-height: 1.75em;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.fragment-title .text-danger {
+  color:white !important;
+}
+#fragment-title_danger .text-danger {
+  color:white !important;
+}
+.texts-danger-send {
+  width: 100% !important;
+  padding: 0px !important;
+}
+.text-danger-send {
+  display: block;
+  margin: 0px -10px;
+  color:#a94442 !important;
+  font-size: 1.1em;
+}
+.fix-text{
+  display: block;
+  margin: 0 auto;
+  font-size:1.5em;
+}
+.asterisk {
+  display: none;}
+.optional::before {
+  content: "任意";
+  color: white;
+  background: #F0AF00;
+  margin: 0 7px 0 0;
+  font-size: .8em;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+.help-block {
+  margin-top: 3px !important;
+  margin-bottom: 0px !important;
+}
+form {
+  width: 100%;
+  overflow: hidden; }
+label:not(.form-face) {
+  text-align: left !important;
+}
+input[type=text],
+textarea {
+  font-weight: bold !important;
+}
+input[type=text]::-webkit-input-placeholder {
+  font-weight: normal !important;
+}
+input[type=radio] {
+  display: none; }
+.radio-inline {
+  padding-top: 0px !important;
+}
+.radio-inline input[type=radio] {
+  display: inline-block;
+  margin: 6px 0 0 0; }
+input[type=radio]:hover + label {
+  background: #f5f5f5;
+  transition: 0.2s; }
+input[type="radio"]:checked + label {
+  background: rgb(255, 247, 233); }
+input[type="radio"]:checked + label .far {
+  transform: scale(1.1);
+  transition: .2s ease-out; }
+input[type="radio"]:checked + label .min {
+  color: #9293e8;
+  background: white;
+  border-radius: 50%;}
+input[type="radio"]:checked + label .bot {
+  color: #92bee8;
+  background: white;
+  border-radius: 50%;}
+input[type="radio"]:checked + label .mid {
+  color: #92e8a1;
+  background: white;
+  border-radius: 50%;}
+input[type="radio"]:checked + label .top {
+  color: #e8ba92;
+  background: white;
+  border-radius: 50%;}
+input[type="radio"]:checked + label .max {
+  color: #e892ab;
+  background: white;
+  border-radius: 50%;}
+.form-group-top {
+  margin: 50px 0 50px 0;}
+  .reviewer_name {
+    width: 100%;
+    max-height: 1em;
+    height: 1em;
+    line-height: 0;
+    border: none;
+    font-size: .9em;
+    color: #464646;
+    font-weight: 400;
+    display: flex;
+    align-items: baseline;
+    text-align: left;
+    cursor: none; }
+    .reviewer_name::after{
+      font-size: .6em;
+      font-weight: 700;
+      content: "任意記入";
+      color: #2778AC;
+      display: block;
+      margin: 0 0 0 5px;}
+  .form-group-top input[type="text"]{
+    font-size: 1.1em;
+    width: 14em;
+    min-height: 1.5em;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 2px solid #2778AC;}
+.form-caption {
+  margin: 30px 0 0 0 ;}
+.form-caption__group,.form-caption__group-02 {
+  display: flex;}
+  .form-caption__group li {
+    width: 25%;   
+    text-align: center;
+    font-size: .9em;
+    font-weight: 400;
+    color: #464664;
+    letter-spacing: .2em;}
+  .form-caption__group-02 li {
+    margin: .5em 0 0 0;
+    font-weight: 700;}
+.form-face {
+  display: inline-block;
+  font-size: 2.8em;
+  border: 1.8px solid #555;
+  width: calc(90% / 5);
+  line-height: 50px;
+  color: #8c8c8c;
+  text-align: center;
+  cursor: pointer; }
+  label:nth-child(4n).form-face {
+    border-left: none;
+}
+  label:nth-child(5n).form-face {
+    border-left: none;
+}
+  label:nth-child(6n).form-face {
+    border-left: none;
+}
+.form-group {
+  display: block;
+  margin: 0px 0 0 0 !important; }
+  .form-group__label {
+    font-size: 1.7em;
+    font-weight: 700;
+    letter-spacing: .15em;
+    text-align: left;
+    width: 100%;
+    margin: 0 15px 30px 15px;
+    padding: 10px 30px 8px 15px;
+    border-left:12px solid #F0AF00;
+    border-bottom:4px solid #F0AF00;
+    color: #101010; }
+  /* .aste::before {
+    display: inline-block;
+    content: "＊";
+    font-size: .6em;
+    color: red;
+    margin: 0 3px 0 0;} */
+    .aste-caption {
+      font-size: .8em;
+      font-weight: 700;
+      color: #464646;
+      margin: 10px 0;}
+    .aste-inner {
+      color: red;}
+    .underline {
+      background: linear-gradient(transparent 60%, yellow);
+      font-weight: 700;}
+  .input-flex {
+    display: flex;
+    width: 100%;
+    margin: 0 auto; }
+textarea {
+  width: 100%;
+  height: 150px;
+  border: 2px solid #2778AC;
+  color: #646464;
+  font-size: 0.8em;
+  padding: 10px 0 0 15px;
+  box-sizing: border-box;}
+input[type="button"]{
+  -webkit-appearance: none;}
+input[type="submit"],
+input[type="button"] {
+  appearance: button;
+  border: none;
+  border: 1px solid #2778AC;
+  padding: 15px 0;
+  margin: 45px 0 0 0;
+  width: 100%;
+  background: #2778AC;
+  color: white;
+  letter-spacing: 0.1em;
+  transition: 0.2s;
+  font-size: 1em;
+  cursor: pointer; }
+  input[type="submit"]:hover,
+  input[type="button"]:hover {
+    background: white;
+    color: #8c8c8c;
+    border: 1px solid #2778ac;
+    transition: 0.2s;
+    cursor: pointer; }
+.float-height__hidden{
+  overflow: hidden;
+margin: 10px 0 0 0;}
+.firstform__inner {
+  font-weight: 100;
+  color: #333333;
+border: none;}
+.col {
+  padding: 3px 0 0 0;}
+.insurance_btn a {
+  display: inline-block;
+  border: 2px solid #AC4442;
+  color: white;
+  background: #AC4442;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  letter-spacing: .05em;
+  border-radius: 5px;
+  transition: .2s;
+}
+.insurance_btn a:hover {
+  color: rgb(167, 58, 56);
+  background: white;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  letter-spacing: .05em;
+  border-radius: 5px;
+  transition: .2s;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-primary {
+  background: linear-gradient(#6ed705,#57a905) !important;
+  border: none !important;
+}
+.disabled {
+  font-size: 26px;
+}
+/* form----end */
+
+/* max width 960px ~ */
+@media screen and (max-width: 960px) {
+  .form-wrap {
+    width: 92vw; }
+  .form-face {
+    font-size: 4vw;
+    line-height: 6vw;
+    max-height: 6vw; } }
+     .danger-caption{
+    font-size: 1.2em;}
+
+/* max width 600px ~ */
+@media screen and (max-width: 600px) {
+  .form-group__label {
+    font-size: 1.2em;
+    font-weight: 700;
+    letter-spacing: .15em;
+    text-align: left;
+    width: 100%;
+    margin: 15px 5px 10px 5px;
+    padding: 10px 0 8px 10px;
+    border-left:8px solid #e8ba92;
+    border-bottom:2px solid #e8ba92;
+    color: #101010; }
+  .firstform__inner {
+  border-left: none;
+  margin: 10px 0 0 0;
+  color: #464646}
+  header h2 {
+    max-width: 960px;
+    font-size: 1.3em;
+    font-weight: 700;
+    background: #2778AC;
+    color: white;
+    margin: 0 auto;
+    padding: 15px 15px 5px;
+    text-align: left;
+    box-sizing: border-box;}
+  header p {
+    max-width: 960px;
+    font-size: .7em;
+    color: white;
+    margin: 0 auto;
+    padding: 0 15px;
+    text-align: left;
+    box-sizing: border-box;}
+  .danger-box p {
+    text-align: left;
+    font-size: .9em;
+  }
+  .danger-caption{
+    font-size: 1em;
+  }
+  .main_passport--title {
+    background: #5fa814;
+    color: white;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border-radius: 5px;}
+  h3.fragment-title {
+    text-align: center;
+    background: #88BE50;
+    padding: 5px 10px;
+    color: white;
+    line-height: 1.75em;
+    font-size: 1.5em;
+    border-radius: 5px;
+    box-sizing: border-box;}
+  h3.fragment-title_user {
+    text-align: center;
+    padding: 5px 10px;
+    background: #F0AF00;
+    color: white;
+    line-height: 1.75em;
+    font-size: 1.5em;
+    border-radius: 5px;
+    box-sizing: border-box;}
+  h3#fragment-title_danger {
+    text-align: center;
+    padding: 5px 10px;
+    background: #A94442;
+    color: white;
+    line-height: 1.75em;
+    font-size: 1.5em;
+    border-radius: 5px;
+    box-sizing: border-box;}
+  .form-wrap {
+    width: 95%;
+    margin: 0 auto;
+    padding: 0; }
+  input[type="radio"]:checked + label {
+    background: rgb(255, 247, 233);
+    border: 1px solid #555; }
+  .input-flex {
+    width: 95%;
+    margin: 0px auto 0;
+    justify-content: space-between;
+  padding: 0 0 1px 0; }
+  .form-face {
+    border: 1px solid #555;
+    border-radius: 50%;
+    width: 70px;
+    line-height: 70px;
+    max-height: 70px;
+    font-size: 2.7em;
+    color: #888888; }
+    .input-flex label:nth-child(4n) {
+      border-left: 1px solid #2778AC;}
+    .input-flex label:nth-child(5n) {
+      border-left: 1px solid #2778AC;}
+    .input-flex label:nth-child(6n) {
+      border-left: 1px solid #2778AC;} }
+
+/* max width 455px ~ */
+@media screen and (max-width: 455px) {
+  form textarea {
+    width: 100% !important;
+    height: 60px !important;
+  }
+  .form-caption__group li {
+    font-size: 2.5vw;}
+  .danger-caption {
+    margin: 0 0 20px 0;
+    text-align: center;
+    color:red;
+    font-size: .9em;
+    line-height: 1.4em;}
+  h3.fragment-title {
+    text-align: center;
+    background: #88BE50;
+    padding: 10px 10px;
+    color: white;
+    line-height: 1.3em;
+    font-size: 1.3em;
+    border-radius: 5px;
+    box-sizing: border-box;}
+  h3.fragment-title_user {
+    text-align: center;
+    padding: 10px 10px;
+    background: #F0AF00;
+    color: white;
+    line-height: 1.3em;
+    font-size: 1.3em;
+    border-radius: 5px;
+    box-sizing: border-box;}
+  h3#fragment-title_danger {
+    text-align: center;
+    background: #A94442;
+    color: white;
+    line-height: 1.3em;
+    font-size: 1.3em;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;}
+  .main_passport--title {
+    background: #5fa814;
+    color: white;
+    text-align: center;
+    line-height: 1.4em;
+    font-size: 1.3em;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border-radius: 5px;}
+  input[type="radio"]:checked + label .far {
+    transform: scale(1.15);}
+  .form-face {
+    border: 1px solid #555;
+    border-radius: 50%;
+    width: 55px;
+    line-height: 55px;
+    max-height: 55px;
+    font-size: 2.5em;} }
+
+/* # sourceMappingURL=index.css.map */
